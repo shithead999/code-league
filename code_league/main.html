@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Compiler</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<nav>
+    <div class="logo">
+    <ul>
+        <li class="brand"> <a href="Logo.html" target="blank"><img src="/WhatsApp_Image_2022-09-17_at_12.31.18-removebg-preview.png" alt=""></a><img src="/name.png" alt="" class="name"> </li>
+    </ul>
+</div>
+</nav>
+<body>
+    <div class="main">
+      <div class="menu">
+           <ul class="menuList">
+            <li class="menuItem" onclick="setCpp()"> <img src="/Icon/letter-c.png" alt=""> </li>
+<!--             <li class="menuItem"><img src="/Icon/visual-basic.png" alt=""></li>
+            <li class="menuItem"><img src="/Icon/c-sharp.png" alt=""></li>
+            <li class="menuItem"><img src="/Icon/java.png" alt=""> </li> -->
+            <li class="menuItem" onclick="setPython()"><img src="/Icon/python.png" alt=""> </li>
+           </ul>
+      </div>
+    <div>
+    <div class="work">
+    <div class="compiler">
+        <div class="title">
+            <div class="btn">
+                <input type="submit" onclick="executeCode()">
+            </div>
+        </div>
+        
+        <textarea name="code" id="code-area" cols="73" rows="26" ></textarea><br><br>
+    </div>
+    <div class="output">
+        <div class="run">
+            <input type="reset" name="Reset" id="Reset">
+        </div>
+        <textarea name="output" id="output-area" cols="72" rows="26" ></textarea><br><br>
+    </div>
+    </div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

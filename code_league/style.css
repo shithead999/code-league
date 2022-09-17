@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Condensed&display=swap');
+
+body{
+    background-color: #0D0D0D;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Nunito', sans-serif;
+}
+
+nav ul{
+    align-items: center;
+    list-style-type: none;
+    height: 85px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    display: flex;
+    padding: 0 6px;
+    text-align: center;
+    font-size: 25px;
+}
+nav ul li img {
+    height: 78px;
+    align-items: left;
+    padding: 0;
+}
+nav ul li img .name{
+    margin-top: 60px;
+}
+
+.main{
+    position: relative;
+    display: flex;
+    /* border: solid 1px #fff; */
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+}
+
+/* #menuBar{
+    width:5%;
+    height: 90%;
+    border: solid 1px #fff;
+    background: black;
+    color: #fff;
+} */
+
+.menu{
+    /* border: 1px solid #fff; */
+    color: #fff;
+    width: 5%;
+    background: black;
+    height: 525PX;
+
+}
+
+.main .menu ul li img{
+    margin-top: 20px;
+    width: 30px;
+}
+
+.main .menu ul li img:hover{
+    cursor: pointer;
+}
+
+.main .menu li{
+    padding: 17px;
+}
+
+.work{
+    display: flex;
+    overflow: hidden;
+}
+
+.compiler{
+    height: 522px;
+    width: 600px;
+    padding: px;
+    /* border: 1px solid #fff; */
+}
+
+.compiler .title{
+    position: relative;
+    flex-wrap: wrap;
+    height: 60px;
+    width: 528px;
+    border: 1px solid #fff;
+    padding: 12px ;
+    margin: 0;
+    background-color: #fafaff;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+.output{
+    height: 522px;
+    width: 595px;
+    padding: 0px;
+    /* border: 1px solid #fff; */
+}
+
+.output .run{
+    position: relative;
+    flex-wrap: wrap;
+    height: 60px;
+    width: 520px;
+    border: 1px solid #fff;
+    padding: 12px ;
+    margin: 0;
+    background-color: #fafaff;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+textarea{
+    width: 100;
+    margin-left: 20px;
+    padding: 0;
+    border: 3px solid #ccc;
+    /* border-radius: 5px; */
+    background-color:  #0D0D0D;
+    color: white;
+}
+input[type="submit"] {
+    background-color: #4dae4d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 20% ;
+
+}
+input[type="submit"]:hover{
+    background-color: #469b40;
+}
+input[type="reset"] {
+    background-color: #4dae4d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+}
+input[type="reset"]:hover{
+    background-color: #3e8f38;
+}
